@@ -23,6 +23,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #4d5ae5;
 }
 
 .container {
@@ -749,13 +750,15 @@ span {
     color: #8e8f99;
     align-items: center;
     margin-bottom: 4px;
-    a {
+    /* a {
         line-height: 1.13;
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
-    }
-    
+    } */
+    /* .accept-priv-policy{
+color: #4d5ae5;
+        } */
 }
 .accept:checked+.accept-text .accept-checkbox {
     background-color: #404bbf;
@@ -808,4 +811,16 @@ span {
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-submit:hover {
+    background-color: #404BBF;
+}
+
+.button-submit:focus {
+    background-color: #404BBF;
+}
+
+.button-submit:hover::before,
+.button-submit:focus::after {
+    background-color: #404BBF;
 }
