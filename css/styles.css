@@ -496,6 +496,68 @@ position: relative;
 .footer-socmedia-block-soclinks a.circle:hover,
 .footer-socmedia-block-soclinks a.circle:focus {
     background-color: #31D0AA;
+
+}
+.footer-form-container {
+    margin-left: auto;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+.footer-input {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+     border: 1px solid #fff;
+     border-radius: 4px;
+     width: 264px;
+     height: 40px;
+     padding: 16px 8px;
+     width: 264px;
+     height: 40px;
+     background-color: transparent;
+     font-size: 12px;
+     line-height: 2;
+     letter-spacing: 0.04em;
+     padding-left: 16px;
+     color: #ffffff;
+}
+.footer-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.footer-btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn-icon {
+    fill: #fff;
+    margin-left: 16px;
+}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+    background: #404bbf;
 }
 /*  */
 .backdrop {
@@ -693,7 +755,9 @@ span {
         text-decoration-skip-ink: none;
         color: #4d5ae5;
     }
-
+.accept-priv-policy {
+    color: #4d5ae5;
+}
 }
 .accept:checked+.accept-text .accept-checkbox {
     background-color: #404bbf;
