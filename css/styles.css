@@ -755,9 +755,7 @@ span {
         text-decoration-skip-ink: none;
         color: #4d5ae5;
     }
-.accept-priv-policy {
-    color: #4d5ae5;
-}
+
 }
 .accept:checked+.accept-text .accept-checkbox {
     background-color: #404bbf;
@@ -765,7 +763,7 @@ span {
     fill: #f4f4fd;
 }
 .accept-checkbox {
-    display: inline-flex;
+    /* display: inline-flex; */
     align-items: center;
     justify-content: center;
     margin-right: 8px;
